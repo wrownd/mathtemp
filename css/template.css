@@ -1,0 +1,206 @@
+* {
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/* This allows you to easily fit Flash applets that are really too big for the
+ *  layout into it, anyway:
+ */
+.squishleft {
+	padding: 0;
+	margin: 0;
+}
+.squishleft * {
+	padding: 0;
+	margin: 0;
+}
+
+/*
+ul {	margin: auto; }
+li {	margin: auto; }
+*/
+
+/* * {
+	padding: 0;
+	margin: 0;
+} */
+
+BODY {
+	font-family: Arial, Helvetica, sans-serif;
+	background-attachment: fixed;
+	background-color: #C04772;
+	background-image: url(../image/6/bodyBG.gif);
+	background-repeat: repeat;
+	background-position: left top;
+	margin: 0px;
+	padding: 0px;
+}
+img{
+	border:none;
+}
+.hide{
+	display:none;
+}
+
+/*==================*/
+#container{
+	width:940px;
+	text-align:left;
+}
+#banner{
+	background:url(../image/4/bannerBG.gif) left top repeat-y;
+	padding:0  0  0 16px;
+	margin:0px;
+	height:75px;
+	min-height:75px;
+
+}
+#search{
+/*  border: 1px solid white; */
+  float: right;
+  margin-top: -50px;
+  padding-right: 25px;
+  /* There's no point in showing this until it's functional: */
+/*  display: none; */
+}
+#mainNav{
+	background:url(../image/5/bannerBtm.gif) left top no-repeat;
+/*	padding:0  0  0 80px; */
+/*	padding:0  0  0 10px; */
+	padding:0  0  0 0px;
+	margin:0px;
+	height:51px;
+}
+#mainNav ul li{
+	float:left;
+	list-style:none;
+	border:1px solid #ffffff;
+	background:#ffffff url(../image/11/mainNavBG.gif) left top repeat-x;
+	height:32px;
+/*
+	padding:4px;
+	margin-left:2px;
+	margin-right:2px;
+*/
+	padding:2px;
+	margin-left:1px;
+	margin-right:1px;
+	text-align:center;
+}
+#mainNav ul li a{
+	color:#000000;
+	font-family:Arial Narrow, Arial, Helvetica, sans-serif;
+/*
+	font-size:.9em;
+*/
+	font-size:.8em;
+	font-weight:bold;
+	height:100%;
+	vertical-align:middle;
+	text-align:center;
+	text-decoration:none;
+}
+#mainNav ul li.down{
+	background:#ffffff url(../image/12/mainNavBGDown.gif) left top repeat-x;
+}
+#contentTop{
+	background:url(../image/8/contentTop.gif) left top no-repeat;
+	height:33px;
+	position:relative;
+}
+
+.breadcrumbs{
+	margin-left:156px;
+	position:absolute;
+	top:14px;
+	height:100%;
+	font-size:.9em;
+	font-weight:bold;
+	font-family:Arial Narrow, Arial, Helvetica, sans-serif;
+	color:#000000;
+}
+.breadcrumbs a{
+	color:#000000;
+}
+
+#contentHolder{
+	background:url(../image/7/contentBG.gif) left top repeat-y;
+	text-align: left;
+	margin: 0px;
+	height:1%;
+	overflow:hidden;
+	display:block;
+	min-height:200px;
+}
+* html #contentHolder { height:1%; overflow:visible; }
+#sideNav{
+	padding-left:11px;
+	width:142px;
+	float:left;
+	background:url(../image/7/contentBG.gif) left top repeat-y;
+}
+#RsideNav{
+	padding-right:11px;
+	width:142px;
+	float:right;
+	background:url(../image/7/contentBG.gif) right top repeat-y;
+}
+#sideNav ul li, #sideNav ul, #RsideNav ul li, #RsideNav ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+#sideNav ul, #RsideNav ul{
+	background:url(../image/13/navBorders.gif) left top repeat-x;
+	padding-top:2px;
+}
+#sideNav ul li, #RsideNav ul li{
+	background:url(../image/13/navBorders.gif) left bottom repeat-x;
+	padding-bottom:4px;
+	padding-top:2px;
+	font-size:.9em;
+	font-weight:bold;
+	font-family:Arial Narrow, Arial, Helvetica, sans-serif;
+	padding-left:8px;
+	padding-right:3px;
+}
+#sideNav ul li a, #RsideNav ul li a{
+	text-decoration:none;
+	color:#ffffff;
+}
+#sideNav ul li.down, #RsideNav ul li.down{
+	background:#FFCC00;
+}
+#sideNav ul li.down a, #RsideNav ul li.down a{
+	text-decoration:none;
+	color:#000000;
+}
+#content{
+
+	width:614px;
+	margin-top:0px;
+	margin-right:160px;
+	margin-left:160px;
+}
+#footer{
+	background:url(../image/9/footerBg.gif) left top repeat-y;;
+	clear:both;
+	height:30px;
+	text-align:center;
+	padding-left:20px;
+	padding-right:20px;
+	color:#000000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:.8em;
+}
+#footer a{
+	color:#000000;
+}
+#footerBtm{
+	background:url(../image/10/footerBtm.gif) left top no-repeat;
+	padding:0  0  0 16px;
+	margin:0px;
+	height:31px;
+}
